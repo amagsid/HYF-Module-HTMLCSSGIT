@@ -1,0 +1,375 @@
+
+
+
+* {
+    padding: 0;
+    margin:0;
+    font-family: 'Exo', sans-serif;
+    
+}
+
+
+
+.nav li{
+    
+    font-weight: 400;
+    text-align: right;
+  padding: 12px;
+  font-size: 1.2em;
+  list-style-type: none;
+  }
+
+  .nav {
+      position: relative;
+      top:120px;
+      padding-right: 30px;
+      z-index: 10;
+  }
+
+
+
+  a {
+    color: rgb(29, 47, 111);
+  }
+
+  a:hover {
+    color: rgb(237, 106, 90);   
+  }
+
+h1, h2, h3, h4, h5{
+    padding: 10px 10px 10px 10px;
+    color: rgb(29, 47, 111);
+}
+
+p, ul, table {
+   color: rgb(29, 47, 111);
+}
+.name h1 {
+    position: absolute;
+    padding-top: 370px;
+    padding-left: 180px;
+    font-weight: 600;
+    font-size: 2.9rem;
+    color: rgb(237, 106, 90);
+    text-decoration: none;
+}
+
+.name h2 {
+    position: absolute;
+    padding-top: 430px;
+    padding-left: 180px;
+    font-size: 4.5em;
+    z-index: 2;
+    font-weight: 900;
+    line-height: .92em;
+    color: rgb(237, 106, 90);
+    text-align: left;
+  
+
+
+}
+
+.job h2 {
+    width: 1000px;
+    padding-left: 150px;
+  
+}
+
+
+
+
+
+
+.two h2 {
+    padding-left: 175px;
+}
+
+
+.job p {
+    width:100%;
+    padding-left: 518px;
+    padding-bottom: 15px;
+
+}
+
+.job .place {
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+.job .place2 {
+    padding-left: 20px;
+    font-weight: 500;
+
+}
+
+.city {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.job.one {
+    height: 24vh;
+}
+
+.date {
+    padding: 0;
+font-size: 1em;
+    font-weight: 600;
+    font-style: italic;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 255px;
+
+}
+
+.education h2 {
+
+    width: 1000px;
+    text-align: center;
+ }
+ 
+ .education .place {
+     padding-left: 15px;
+     font-weight: 500;
+ }
+ 
+ .education .place2 {
+     padding-left: 20px;
+     font-weight: 500;
+ 
+ }
+ 
+ .education ul {
+     position: absolute;
+     left: 535px;
+   }
+ 
+ 
+   .education.one {
+       padding-bottom: 40px;
+   }
+   .education.two {
+     padding-bottom: 40px;
+ }
+ .education.three {
+     padding-bottom: 40px;
+ }
+ 
+ .education.one h2 {
+     padding-left: 50px;
+ }
+ 
+ .education.two h2 {
+     padding-left: 60px;
+ }
+ 
+ .education.three h2 {
+    position: relative;
+    right: 70px;
+ }
+ 
+ .education.one h3 {
+     padding-left: 70px;
+ }
+ 
+ .education.two h3 {
+     padding-left: 23px;
+ }
+ 
+ .education.three h3 {
+     padding-left: 60px;
+ }
+ 
+
+h1 {
+    display: inline-block;
+    font-size: 3em;
+    font-weight: 900;
+    color: rgb(237, 106, 90);
+    text-decoration: underline;
+
+}
+.job ul {
+  position: absolute;
+  left: 535px;
+}
+
+.name span {
+    text-decoration: underline;
+}
+
+
+
+
+.bio p {
+    line-height: 2em;
+    font-weight: 600;
+    position: relative;
+}
+
+.bio p::first-letter {  
+    font-size: 200%;
+    
+}
+
+
+.banner.skills h4 {
+    padding-top: 20 px;
+}
+
+
+.banner {
+    height: 80vh;
+}
+
+.banner.education {
+    height: 38vh;
+}
+
+.banner.employment {
+    height: 50vh;
+}
+
+
+
+.name {
+    color: brown;
+    display: inline-block;
+}
+
+.contact ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+
+    
+}
+
+
+ .headshot {
+
+position: absolute;
+padding-top: 120px;
+padding-left: 290px;  
+}
+
+
+.bio {
+
+    background-color: rgb(202, 240, 248);
+    height: 80vh;
+    width:  70vw;
+    float: right;
+
+
+}
+
+.bio p {
+    display:inline-block;
+    width: 43%;
+    position: absolute;
+    padding-left: 210px;
+    padding-top:250px;
+
+}
+
+p span {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+
+
+    .contact{
+        
+        padding-top: 600px;
+        
+    }
+
+.banner.employment {
+    background-color: rgb(144, 224, 239);
+    width: 30vw;
+    max-height: 600px;
+}
+
+
+.banner.education {
+    background-color: rgb(144, 224, 239);
+    width: 30vw;
+    max-height: 600px;
+ 
+   
+}
+
+
+
+.banner.skills {
+    max-height: 970px;
+    background-color: rgb(144, 224, 239);
+    width: 30vw;
+}
+
+.skills h2 {
+    text-align: right;
+}
+
+.skills table {
+    position: relative;
+    bottom:35px;
+    left: 530px;
+    width: 100%;
+  table-layout: fixed;
+  border-spacing: 0;
+
+}
+
+th {
+    text-align: left;
+    background-color: rgb(237, 106, 90); 
+    height: 30px;
+
+  }
+h5 {
+
+position: relative;
+bottom:30px;
+left: 520px;
+font-size: 1em;
+
+}
+
+.asterisk {
+    font-size: 1.2em;
+}
+
+.mtongue {
+    font-weight: 500;
+}
+  .skills h4 {
+      text-align: right;
+  }
+
+  .skills ul {
+    position: absolute;
+    left: 535px;
+  }
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border: 1.5px solid  rgb(237, 106, 90); 
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 530px;
+    bottom:28px;
+  }
+
+  .filled {
+      background-color: rgb(237, 106, 90);
+  }
+
+
+
